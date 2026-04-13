@@ -8,75 +8,99 @@
   <body id="body">
     <hr id="top_line" />
     <!-- header -->
-    <header>
-      <h1>Your Name</h1>
-      <h2>Junior Frontend Developer</h2>
-      <nav>
-        <ul>
-          <li><a href="#">123 Your Street</a></li>
-          <li><a href="#">Your City, ST 1234</a></li>
-          <li><a href="#">(123) 456-7890</a></li>
-          <li><a href="#">no-reply@example.com</a></li>
+    <header id="header">
+      <h1 id="header__title">Your Name</h1>
+      <h2 id="header__subtitle" class="--green_title">
+        Junior Frontend Developer
+      </h2>
+      <nav id="header__nav">
+        <ul id="header__nav_list">
+          <li class="header__nav_item">
+            <a class="header__nav_link" href="#">123 Your Street</a>
+          </li>
+          <li class="header__nav_item">
+            <a class="header__nav_link" href="#">Your City, ST 1234</a>
+          </li>
+          <li class="header__nav_item">
+            <a class="header__nav_link" href="#">(123) 456-7890</a>
+          </li>
+          <li class="header__nav_item">
+            <a class="header__nav_link" href="#">no-reply@example.com</a>
+          </li>
         </ul>
       </nav>
     </header>
-    <main>
+    <main id="main">
       <!-- skills -->
-      <section>
-        <h2>Skills</h2>
-        <p>
+      <section id="skills">
+        <h2 id="skills__title" class="--green_title">Skills</h2>
+        <p id="skills__content">
           HTML, CSS, JavaScript, Accessibility, Figma to Design, Responsive Web
           Design, Technical Writing, Presentation
         </p>
       </section>
       <!-- education -->
-      <section>
-        <header>
-          <h2>Education</h2>
-          <h3>School Name, Location - Degree</h3>
-          <h4>Month 20xx to Month 20xx</h4>
+      <section id="education">
+        <header id="education__header">
+          <h2 id="education__title" class="--green_title">Education</h2>
+          <h3 id="education__subtitle">School Name, Location - Degree</h3>
+          <h4 id="education__date">Month 20xx to Month 20xx</h4>
         </header>
-        <p>List of exciting things you did at University</p>
+        <p id="education__content">
+          List of exciting things you did at University
+        </p>
       </section>
       <!-- experience -->
-      <section>
-        <h2>Experience</h2>
+      <section id="experience">
+        <h2 id="experience__title" class="--green_title">Experience</h2>
         <!-- experience 1 -->
-        <section>
-          <header>
-            <h3>Company Name, Location - Job Title</h3>
-            <h4>Month 20xx to Month 20xx</h4>
+        <section class="experience__section">
+          <header class="experience__header">
+            <h3 class="experience__company">
+              Company Name, Location - Job Title
+            </h3>
+            <h4 class="experience__company_date">Month 20xx to Month 20xx</h4>
           </header>
-          <ul>
-            <li>List of achievements</li>
-            <li>List of achievements</li>
-            <li>List of achievements</li>
+          <ul class="experience__list">
+            <li class="experience__achievements">List of achievements</li>
+            <li class="experience__achievements">List of achievements</li>
+            <li class="experience__achievements">List of achievements</li>
           </ul>
-          <p>Skills: List of skills used or gained at this company</p>
+          <p class="experience__skills">
+            Skills: List of skills used or gained at this company
+          </p>
         </section>
         <!-- experience 2 -->
-        <section>
-          <header>
-            <h3>Company Name, Location - Job Title</h3>
-            <h4>Month 20xx to Month 20xx</h4>
+        <section class="experience__section">
+          <header class="experience__header">
+            <h3 class="experience__company">
+              Company Name, Location - Job Title
+            </h3>
+            <h4 class="experience__company_date">Month 20xx to Month 20xx</h4>
           </header>
-          <ul>
-            <li>List of achievements</li>
-            <li>List of achievements</li>
-            <li>List of achievements</li>
+          <ul class="experience__list">
+            <li class="experience__achievements">List of achievements</li>
+            <li class="experience__achievements">List of achievements</li>
+            <li class="experience__achievements">List of achievements</li>
           </ul>
-          <p>Skills: List of skills used or gained at this company</p>
+          <p class="experience__skills">
+            Skills: List of skills used or gained at this company
+          </p>
         </section>
       </section>
-      <!-- links -->
-      <section>
-        <h2>Across the Internet</h2>
-        <p>Add your LinkedIn, GitHub profile links</p>
+      <!-- social media -->
+      <section id="social_media">
+        <h2 id="social_media__title" class="--green_title">
+          Across the Internet
+        </h2>
+        <p id="social_media__content">
+          Add your LinkedIn, GitHub profile links
+        </p>
       </section>
     </main>
     <!-- footer -->
-    <footer>
-      <p>
+    <footer id="footer">
+      <p id="footer__content">
         &copy; 2026 Made by chrisperaza for the roadmap.sh challenge project
       </p>
     </footer>
